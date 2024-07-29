@@ -15,7 +15,8 @@ public class Squarer {
     /**
      * TODO: Inject this field
      */
-    Multiplier multiplier;
+    @Autowired
+     private Multiplier multiplier;
 
     /**
      * Leverage the Multiplier dependency to multiply a value with itself.
